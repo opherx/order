@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(225deg, 100%, 94%);
+}
+
+.container {
+  text-align: center;
+  margin: 100px auto;
+  background-color: white;
+  width: 350px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  border-radius: 15px;
+}
+
+.hero-img {
+  width: 350px;
+  border-radius: 15px 15px 0 0;
+}
+
+h3 {
+  color: hsl(223deg, 47%, 23%);
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 900;
+  margin: 25px auto 10px auto;
+  font-size: 20px;
+}
+
+.description {
+  width: 90%;
+  margin: 25px auto;
+  font-weight: 500;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 14px;
+  color: hsl(224deg, 23%, 55%);
+}
+
+.pricing-sec {
+  position: relative;
+  background-color: hsl(225deg, 100%, 98%);
+  border-radius: 10px;
+  margin: 0 25px 25px 25px;
+}
+
+.music {
+  float: left;
+  width: 12%;
+  margin: 15px 10px;
+}
+
+.price {
+  display: inline-block;
+  margin: 3px 150px 10px 0;
+  color: hsl(224deg, 23%, 55%);
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.price-plan {
+  display: inline-block;
+  margin: 17px 150px 0 0;
+  color: hsl(223deg, 47%, 23%);
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 14px;
+  font-weight: 900;
+}
+
+.price-part {
+  padding: 7px;
+}
+
+.change {
+  position: absolute;
+  right: 0;
+  top: 31px;
+  color: hsl(245deg, 75%, 52%);
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  padding-right: 15px;
+}
+
+.change:hover {
+  color: hsl(286deg, 75%, 52%);
+  text-decoration: none;
+}
+
+button {
+  width: 300px;
+  height: 40px;
+  color: white;
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 700;
+  border: none;
+  border-radius: 10px;
+  background-color: hsl(245deg, 75%, 52%);
+  margin-bottom: 25px;
+  box-shadow: 10px 10px 15px rgba(120, 140, 196, 0.671);
+}
+
+button:hover {
+  background-color: hsl(286deg, 75%, 52%);
+  cursor: pointer;
+}
+
+.cancel {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 14px;
+  color: hsl(224deg, 23%, 55%);
+  font-weight: 700;
+  padding-bottom: 50px;
+}
+
+.cancel:hover {
+  color: hsl(223deg, 47%, 23%);
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */
